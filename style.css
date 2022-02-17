@@ -302,6 +302,13 @@ footer span a:hover {
     object-fit: cover;
     object-position: top;
   }
+  .about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
   .home .text-2 {
     font-size: 2.8rem;
     font-weight: 600;
@@ -325,6 +332,13 @@ footer span a:hover {
     object-fit: cover;
     object-position: top;
   }
+  /* .about-image img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  } */
   .home .text-2 {
     font-size: 2.3rem;
     font-weight: 600;
@@ -384,7 +398,7 @@ footer span a:hover {
     width: 75px;
     height: 75px;
   }
-  .about-image {
+  /* .about-image {
     width: 100%;
     border-radius: 12px;
     object-fit: cover;
@@ -395,6 +409,17 @@ footer span a:hover {
     margin: 0;
     border-radius: 12px;
     object-fit: cover;
+  } */
+  .about-image {
+    width: auto;
+  }
+  .about-image img {
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 2rem auto;
+    object-position: top;
   }
   .contact-content {
     width: 100%;
@@ -444,6 +469,17 @@ footer span a:hover {
     width: auto;
   }
   .photo img {
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 2rem auto;
+    object-position: top;
+  }
+  .about-image {
+    width: auto;
+  }
+  .about-image img {
     height: 350px;
     width: 350px;
     border-radius: 12px;
@@ -537,5 +573,16 @@ footer span a:hover {
   }
   .mini-text {
     margin-top: 1rem;
+  }
+  .about-image {
+    width: auto;
+  }
+  .about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 2rem auto;
+    object-position: top;
   }
 }
