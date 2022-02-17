@@ -84,23 +84,18 @@ body {
   color: crimson;
 }
 
-.menu-btn{
-    display: none;
+.menu-btn {
+  display: none;
 }
-.menu-btn a{
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    display: none;
+.menu-btn a {
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
 }
-.menu-btn a:hover{
-    color: crimson;
+.menu-btn a:hover {
+  color: crimson;
 }
-
-
-
-
-
 
 section {
   font-family: "Ubuntu", sans-serif;
@@ -123,6 +118,7 @@ section {
   width: 350px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: top;
 }
 .home-content {
   width: 60%;
@@ -243,8 +239,8 @@ section {
   max-width: 50%;
   line-height: 1.5;
 }
-.icons{
-    margin-top: 3rem;
+.icons {
+  margin-top: 3rem;
 }
 .icon-1 {
   display: flex;
@@ -304,6 +300,7 @@ footer span a:hover {
     width: 300px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
   }
   .home .text-2 {
     font-size: 2.8rem;
@@ -322,10 +319,11 @@ footer span a:hover {
   }
 
   .photo img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
   }
   .home .text-2 {
     font-size: 2.3rem;
@@ -415,10 +413,6 @@ footer span a:hover {
   }
 }
 
-
-
-
-
 @media (max-width: 767px) {
   .max-width {
     padding: 0 2rem;
@@ -446,16 +440,16 @@ footer span a:hover {
     font-size: 2.2rem;
     padding: 2rem 0;
   }
-  .photo{
-      width: 100%;
+  .photo {
+    width: auto;
   }
   .photo img {
     height: 350px;
     width: 350px;
     border-radius: 12px;
     object-fit: cover;
-    margin: 2rem 0;
-    width: 100%;
+    margin: 2rem auto;
+    object-position: top;
   }
   .home-content {
     width: 100%;
@@ -464,21 +458,21 @@ footer span a:hover {
     width: 75px;
     height: 75px;
   }
-  .menu-btn{
+  .menu-btn {
     display: block;
-}
-  .menu-btn a{
+  }
+  .menu-btn a {
     color: #fff;
     font-size: 23px;
     cursor: pointer;
     display: block;
-}
-.mini-texts {
+  }
+  .mini-texts {
     display: flex;
     flex-direction: column;
   }
-.mini-text {
-    margin-top: 1rem ;
+  .mini-text {
+    margin-top: 1rem;
   }
 }
 
@@ -490,8 +484,8 @@ footer span a:hover {
   body {
     font-size: 1rem;
   }
-  .nav-bar .logo a{
-      font-size: 2rem;
+  .nav-bar .logo a {
+    font-size: 2rem;
   }
   .nav-bar-items {
     display: none;
@@ -512,16 +506,16 @@ footer span a:hover {
     font-size: 2rem;
     padding: 2rem 0;
   }
-  .photo{
-      width: 100%;
+  .photo {
+    width: auto;
   }
   .photo img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 12px;
     object-fit: cover;
-    margin: 2rem 0;
-    width: 100%;
+    margin: 2rem auto;
+    object-position: top;
   }
   .home-content {
     width: 100%;
@@ -530,20 +524,18 @@ footer span a:hover {
     width: 50px;
     height: 50px;
   }
-  .menu-btn a{
+  .menu-btn a {
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
     display: block;
     z-index: 999;
-    
-}
-.mini-texts {
+  }
+  .mini-texts {
     display: flex;
     flex-direction: column;
   }
-.mini-text {
-    margin-top: 1rem ;
+  .mini-text {
+    margin-top: 1rem;
   }
 }
-
