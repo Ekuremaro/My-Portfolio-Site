@@ -123,6 +123,10 @@ section {
 .home-content {
   width: 60%;
 }
+.home-content button a{
+  color: #fff;
+  text-decoration: none;
+}
 .home .text-1 {
   font-size: 1.2rem;
 }
