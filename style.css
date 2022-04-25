@@ -166,6 +166,7 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  gap: 1rem;
   background: #222;
   margin-bottom: 2.5rem;
   border-radius: 6px;
@@ -180,7 +181,8 @@ section {
   border-radius: 10px;
 }
 .project-content h2 {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+
 }
 .project-content p {
   line-height: 1.5;
@@ -232,6 +234,7 @@ section {
   border-radius: 50%;
   object-fit: cover;
   margin: 0 2rem;
+  object-position: top;
 }
 .about-text {
   text-align: justify;
@@ -357,6 +360,7 @@ footer span a:hover {
   }
   .about-content {
     display: flex;
+
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -371,15 +375,17 @@ footer span a:hover {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+   
     background: #222;
     margin-bottom: 2.5rem;
     border-radius: 6px;
     font-weight: 300;
   }
+
   .project-content p {
     line-height: 1.5;
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1rem;
   }
   .project-image img {
